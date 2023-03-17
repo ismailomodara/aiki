@@ -1,0 +1,49 @@
+:root {
+  /* Grey / Text */
+  --ai-grey-primary: #0f241b;
+  --ai-grey-secondary: #1d352a;
+  --ai-grey-tertiary: #4B6358;
+  --ai-grey-quaternary: #8AA398;
+  --ai-grey-quinary: #CBD8D2;
+  --ai-grey-senary: #E2E9E6;
+  --ai-grey-septenary: #f0f4f2;
+  --ai-grey-octonary: #F9FBFA;
+
+  /* Green */
+  --ai-green-primary: #2fbd59;
+
+  /* Red */
+  --ai-red-primary: #E1404D;
+  --ai-red-secondary: #E55863;
+  --ai-red-tertiary: #E8707A;
+  --ai-red-quaternary: #F0A0A6;
+  --ai-red-senary: #F8CFD2;
+
+  /* White */
+  --ai-white: #ffffff;
+}
+
+.text-primary {
+  color: var(--ai-green-primary) !important;
+}
+
+.text-secondary{
+  color: var(--ai-green-secondary) !important;
+}
+
+.text-grey-primary{
+  color: var(--ai-grey-primary) !important;
+}
+
+.text-grey-secondary {
+  color: var(--ai-grey-secondary) !important;
+}
+
+.text-grey-tertiary{
+  color: var(--ai-grey-tertiary) !important;
+}
+
+.text-danger {
+  color: var(--ai-red-primary) !important;
+}
+

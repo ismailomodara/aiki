@@ -1,0 +1,25 @@
+.ai-default-layout {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.ai-onboarding-layout {
+  background: red;
+  height: 100%;
+  min-height: 100vh;
+  color: #fff;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.ai-app-layout {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+

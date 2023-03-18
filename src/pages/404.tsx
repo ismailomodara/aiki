@@ -1,4 +1,4 @@
-import AiHead from "@/components/Global/AiHead";
+import {AiHead} from "@/components/Global/AiHead";
 const Error = () => {
   return (
     <>
@@ -7,6 +7,6 @@ const Error = () => {
     </>
   )
 }
-Error.layout = 'DefaultLayout'
+Error.layout = "DefaultLayout"
 
 export default Error

@@ -1,34 +1,28 @@
 :root {
-  /* Grey / Text */
-  --ai-grey-primary: #0f241b;
-  --ai-grey-secondary: #1d352a;
-  --ai-grey-tertiary: #4B6358;
-  --ai-grey-quaternary: #8AA398;
-  --ai-grey-quinary: #CBD8D2;
-  --ai-grey-senary: #E2E9E6;
-  --ai-grey-septenary: #f0f4f2;
-  --ai-grey-octonary: #F9FBFA;
+  /* Brand */
+  --ai-primary: #3423A6;
+  --ai-secondary: #5946d8;
+  --ai-tertiary: #a59aea;
+  --ai-quaternary: #d2cdf4;
+  --ai-quinary: #f0eefb;
 
-  /* Green */
-  --ai-green-primary: #2fbd59;
-
-  /* Red */
-  --ai-red-primary: #E1404D;
-  --ai-red-secondary: #E55863;
-  --ai-red-tertiary: #E8707A;
-  --ai-red-quaternary: #F0A0A6;
-  --ai-red-senary: #F8CFD2;
+  /* Grey */
+  --ai-grey-primary: #111111;
+  --ai-grey-secondary: #333333;
+  --ai-grey-tertiary: #676767;
+  --ai-grey-quaternary: #888888;
+  --ai-grey-quinary: #AAAAAA;
 
   /* White */
   --ai-white: #ffffff;
 }
 
 .text-primary {
-  color: var(--ai-green-primary) !important;
+  color: var(--ai-primary) !important;
 }
 
 .text-secondary{
-  color: var(--ai-green-secondary) !important;
+  color: var(--ai-secondary) !important;
 }
 
 .text-grey-primary{
@@ -41,9 +35,5 @@
 
 .text-grey-tertiary{
   color: var(--ai-grey-tertiary) !important;
-}
-
-.text-danger {
-  color: var(--ai-red-primary) !important;
 }
 

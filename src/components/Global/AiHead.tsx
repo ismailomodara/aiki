@@ -1,7 +1,11 @@
 import Head from 'next/head';
-import AiHeadInterface from "@/types/Onboarding";
 
-export default function AiHead(props: AiHeadInterface) {
+type AiHeadMeta = {
+  title: string,
+  description: string
+}
+
+export const AiHead = (props: AiHeadMeta) => {
   const { title, description } = props
 
   return (

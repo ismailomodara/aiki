@@ -1,9 +1,11 @@
-import type { NextPage } from 'next'
-import type { AppProps } from 'next/app'
+import type { NextPage } from 'next';
+import type { AppProps } from 'next/app';
 
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
+import { theme } from "@/components/Ai/ai.config";
+
 import '@/styles/ai-main.scss'
-import '@/styles/globals.css'
+// import '@/styles/globals.css'
 
 import DefaultLayout from "@/layouts/DefaultLayout";
 import OnboardingLayout from "@/layouts/OnboardingLayout";
@@ -26,7 +28,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
   let Layout = Layouts[Component.layout || 'DefaultLayout'];
 
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <Layout>
         <Component {...pageProps} />
       </Layout>

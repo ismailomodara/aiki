@@ -1,4 +1,5 @@
 @import "Global/ai-theme";
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,7 +9,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: "Mukta", sans-serif !important;
   font-size: 14px;
   line-height: 1.4;
   margin: 0;
@@ -20,11 +21,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-// App Layout
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Mukta", sans-serif;
+  font-weight: 600 !important;
+  line-height: 1;
+}
 
-.mv-app--layout {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+p {
+  font-family: "Mukta", sans-serif;
 }

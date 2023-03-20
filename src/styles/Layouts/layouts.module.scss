@@ -18,8 +18,6 @@
   grid-template-rows: 100vh;
   color: #fff;
 
-
-
   &-body,
   &-content {
     height: 100%;
@@ -99,8 +97,41 @@
 .ai-layout-app {
   height: 100%;
   width: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  display: flex;
+
+  &-sidenav {
+    background-color: var(--ai-primary);
+    width: 300px;
+    min-height: 100%;
+    padding: 20px;
+    overflow-y: scroll;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+
+      li {
+        padding: 10px 15px;
+        font-size: 1.125rem;
+        background-color: transparent;
+
+        &.active {
+          background-color: var(--ai-quinary) !important;
+        }
+      }
+    }
+  }
+
+  &-body {
+    background-color: var(--ai-quinary);
+    padding: 40px;
+    min-height: 200vh;
+    width: 100%;
+    overflow-y: scroll;
+
+  }
 }
 
 
